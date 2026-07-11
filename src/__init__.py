@@ -12,6 +12,7 @@ CACHE_FILE = "cloudflare_cache.json"
 # connected through the Cloudflare WARP client with the TCP proxy enabled.
 # Without that, this rule has no effect, so we don't create it by default.
 ENABLE_SNI_FILTER = True
+
 # Read .env variables 
 def dot_env(file_path=".env"):
     env_vars = {}
